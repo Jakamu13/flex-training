@@ -38,14 +38,14 @@ nav {
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-
+    
 }
 
 .header-left {
-    margin: 100px 200px;
-    width: 400px;
+    padding: 2% 2% 2% 2%;
+    max-width: 23%;
     
 }
 
@@ -71,7 +71,7 @@ nav {
 }
 
 .header-right {
-    margin-right: 200px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,7 +104,25 @@ nav {
     padding-right: 250px;
     border: solid;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+span {
+    width: 150px;
+   
+}
+
+.text {
+    width: 150px;
     
 }
 
@@ -119,5 +137,32 @@ nav {
     height: 150px;
 }
 
+.blurb {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 250px 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+   
+}
+.author {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
